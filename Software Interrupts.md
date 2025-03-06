@@ -1,0 +1,3 @@
+Similar to [[Hardware Interrupts]], Software Interrupts are a form of [[Interrupts]], which require an [[Interrupt Handler]].
+
+A popular use case of Software Interrupts are [[System Calls]], which are handled by the [[Operating System Kernel]] or the [[BIOS]]. Software interrupts aren't always planned however, take a Divide By Zero Exception as an example. This still needs to be handled by an [[Interrupt Handler]]. The easiest [[Interrupt Handler]] is probably one that just hangs the [[CPU]] core in an infinite loop. 

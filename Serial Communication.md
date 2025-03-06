@@ -1,0 +1,5 @@
+Serial Communication is a way for electronic devices to communicate with each other. It comes in different [[Hardware Protocols]], most commonly used of which are [[UART]], [[SPI]], [[I2C]], ...
+[[USB]] and [[PS/2]] are Serial Communication Protocols as well, however they're less suited for [[Embedded Systems]]. 
+All of these Protocols are different but they all share one common trait: They are Serial, which means the data is transferred bit by bit after each other and not at the same time on different lines (That would be [[Parallel Communication]]). 
+This has the advantage of only needing very few transmission lines, which makes it easier to use in cables but has the drawback of requiring more time to transfer data. 
+This is why [[CPU]]s for example use [[Parallel Communication]] and [[USB]] cables are so thin.

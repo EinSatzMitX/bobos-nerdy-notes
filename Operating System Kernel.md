@@ -1,0 +1,3 @@
+#osdev 
+An Operating System Kernel, or just kernel, is the heart of an [[Operating System]]. It handles the core functionalities like reading from/writing to the [[File System]], setting up a [[System Call Table]], creating a [[Process Scheduler]], setting up [[Device Drivers]], managing [[Memory]] by using techniques like [[Paging]] and many more.
+The kernel also loads [[Drivers]] which can handle Device I/O ([[Device Drivers]])

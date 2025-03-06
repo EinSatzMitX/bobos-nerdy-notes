@@ -1,0 +1,5 @@
+#Programming 
+Interpreted Programming Languages, like [[C#]], [[Java]] but also [[Python]], [[Javascript]], or [[Ruby]] are often referred to as a counterpart to [[Compiled Programming Language]]. Instead of being dependant to one specific platform Interpreted Programming Languages can often be run across multiple [[CPU Architectures]]. They come in handy when writing more complex [[Programs]] that need to be run across multiple platforms or even in a [[Web Browser]] in the case of [[Javascript]]. 
+Interpreted Programming Languages are also split into various sub categories. Some Languages are compiled into [[Byte Code]] and interpreted by their respective [[Virtual Machine]].
+Languages like [[Python]] are being directly being parsed and executed from [[Source Code]] by the [[Interpreter]].
+There are also languages that are being compiled to some form of [[Object Code]] or an [[Intermediate Representation]] (IR) and then directly executed by the [[Interpreter]].

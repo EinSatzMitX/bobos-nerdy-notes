@@ -1,0 +1,6 @@
+#Programming 
+There are different types of Programming Languages:
+- [[Interpreted Programming Language]]s
+- [[Compiled Programming Language]]s
+The key difference between these two types is that a program called the [[Compiler]] reads over the code and then transforms it into either [[Object Code]], which can be linked to a [[Executable]] or it can be transformed into a language-specific file containing the [[Byte Code]] which can only be run by an [[Interpreter]]. [[Interpreted Programming Language]]s however don't have to be compiled to [[Byte Code]]. [[Python]] for example can be run directly from the [[Source Code]] of a program.
+Both forms of Programming Languages have their advantages and disadvantages. A [[Compiled Programming Language]] for example requires no [[Interpreter]], which means it usually has a better [[Runtime]] but [[Compiled Programming Language]]s have to specify their [[Target Triplet]] at [[Compile Time]], meaning a compiled [[Executable]] can only be run on specific [[CPU Architectures]] and not [[Cross-Platform]].
