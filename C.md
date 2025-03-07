@@ -20,7 +20,7 @@ int main(int argc, char** argv){
 _Small example for a C [[Program]] that prints out "Hello World!"_
 
 Since C is usually not programmed in some fancy [[IDE]] that has a simple button which compiles and runs the [[Source Code]] for the user, one must run the [[Compiler]] command themself:
-`gcc -c main.c -o my_program`
+`gcc -o my_program main.c`
 
 This might work for one simple file but as soon as a project consists of multiple files this will become very annoying. 
 Luckily there are a bunch of build systems for C, like [[GNU Make]] or [[CMake]] (which also used [[GNU Make]]).
@@ -56,7 +56,7 @@ int main(int argc, char** argv){
 ```
 
 To compile this code one must include the foo.h file
-`gcc main.c foo.c -Ifoo.h -o my_program`
+`gcc -Ifoo.h -o my_program main.c foo.c`
 
 C has [[Primitive Data Structures]] like int, float, char, ... but it also gives the option to the programmer to create [[Complex Data Structures]] using [[Struct]]s, [[Union]]s, creating [[Enum]]s, etc.
 One important [[Data Structure]] is missing in C however: The [[String]]. This doesn't mean one can't use them, they clearly can as demonstrated in the example above, just not in the same way.
