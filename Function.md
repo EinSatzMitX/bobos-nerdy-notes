@@ -7,4 +7,4 @@ float f(float x){
 }
 ```
 where x can be a [[Float]] (any approximation of any real number).
-Functions can have return types, like in the example above, or they can be c
+Functions can have return types, like in the example above, or they can only consist of code that has to be run multiple times in a [[Program]]. This is usually marked with the 
