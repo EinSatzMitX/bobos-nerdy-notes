@@ -15,4 +15,5 @@ void foo(void){
 }
 ```
 
-Functions are often confused with []
+Functions are often confused with [[Method]]s, which are a similar concept from the field of [[OOP]].
+In some [[Programming Languages]], like C, 
