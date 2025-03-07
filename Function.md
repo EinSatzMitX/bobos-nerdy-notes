@@ -7,3 +7,4 @@ float f(float x){
 }
 ```
 where x can be a [[Float]] (any approximation of any real number).
+Functions can have return types, like in the example above, or they can be c
