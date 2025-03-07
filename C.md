@@ -146,7 +146,7 @@ The Programmer can also create a [[Pointer]] to an [[Array]].
 /* Pointer of a 10 elements large integer array */
 int (*ptr)[10];
 /* Array of 10 pointers to integers */
-int *ptr[10]; 
+int *ptr[10];
 ```
 _Example of how easily to confuse different pointer arrays with array pointers_
 
