@@ -141,7 +141,14 @@ int main(int argc, char** argv)
 ```
 _In this example a char* called "string" is created, which points to the string "abcdefghij". When increasing that variable called "string" we're effectively increasing the address it points to, so when whe now print the char it points to by using %c as our specifier we get 'f' as an output_
 
-The Programer can also create a [[Pointer]]
+The Programer can also create a [[Pointer]] to an [[Array]].
+```C
+/* Pointer of a 10 elements large integer array */
+int (*ptr)[10];
+/* */
+
+```
+
 
 
 The is also a book Called "The C Programming Language" (often referred to as "K&R" because it was written by Kernighan and [[Dennis Ritchie]]) which is still a relevant book to this day.
