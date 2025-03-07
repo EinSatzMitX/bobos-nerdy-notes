@@ -1,0 +1,3 @@
+#Programming 
+The [[GNU]] [[Compiler]] Collection (GCC) is a [[C]] and [[Assembly]] [[Compiler]] (or [[Assembler]]) that was developed in the late 1980s and ever since to be an [[Open Source]] alternative to other [[C]] [[Compiler]]s. The original release in 1987 by [[Richard Stallman]] was name "[[GNU]] [[C]] [[Compiler]]". However it has been extended to support [[C++]] as well, hence the name change.
+In contrast to most modern [[Compiler]]s, GCC is NOT [[LLVM]]-based, like the main competitor [[Clang]].
