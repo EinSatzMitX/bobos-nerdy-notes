@@ -16,4 +16,4 @@ void foo(void){
 ```
 
 Functions are often confused with [[Method]]s, which are a similar concept from the field of [[OOP]].
-In some [[Programming Languages]], like C, the programmer can also create [[Pointer]]s to functions. This feature has very limited use cases, but it can c
+In some [[Programming Languages]], like [[C]], the programmer can also create [[Pointer]]s to functions. This feature has very limited use cases, but it can can be very useful sometimes, especially due to the fact that [[C]] is not [[OOP]] Languge
