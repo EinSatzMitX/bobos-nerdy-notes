@@ -14,3 +14,5 @@ void foo(void){
 	printf("Hi!\n");
 }
 ```
+
+Functions are often confused with []
