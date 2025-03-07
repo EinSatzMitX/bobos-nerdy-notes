@@ -145,10 +145,10 @@ The Programer can also create a [[Pointer]] to an [[Array]].
 ```C
 /* Pointer of a 10 elements large integer array */
 int (*ptr)[10];
-/* */
-
+/* Array of 10 pointers to integers */
+int *ptr[10]; 
 ```
-
+_Example of how easily to confuse different _
 
 
 The is also a book Called "The C Programming Language" (often referred to as "K&R" because it was written by Kernighan and [[Dennis Ritchie]]) which is still a relevant book to this day.
