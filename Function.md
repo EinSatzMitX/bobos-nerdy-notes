@@ -6,4 +6,4 @@ float f(float x){
 	return x*x;
 }
 ```
-where x can e a [[Float]] 
+where x can be a [[Float]] (any approximation of any real number).
