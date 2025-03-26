@@ -4,6 +4,7 @@
 The [[C]] is used for almost every application on every device, thus it it is probably a smart idea to learn it.
 
 # **Basics**
+## Primitive types
 Just like most [[Programming Languages]], [[C]] has [[Primitive Data Structures]], such as
 ```C
 /* Added in C23 */
@@ -99,10 +100,8 @@ int main(int argc, char** argv){
 }
 ```
 
-**[[Struct]]s**
----
-
-We can combine 
+## [[Struct]]s
+We can use ou 
 
 
 
