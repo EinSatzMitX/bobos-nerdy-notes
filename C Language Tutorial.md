@@ -5,7 +5,7 @@ The [[C]] is used for almost every application on every device, thus it it is pr
 
 # **Basics**
 ## Primitive types
-In [[Programming Languages]], there are [[v]]
+In [[Programming Languages]], there are [[Variable]]s. You can think of these variables as drawers, which can hold some combination of bits. 
 Just like most [[Programming Languages]], [[C]] has [[Primitive Data Structures]], such as
 ```C
 /* Added in C23 */
