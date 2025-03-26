@@ -105,9 +105,12 @@ We can use our already gained knowledge to combine these various data types in s
 
 ```C
 struct person {
-
-}
+	char name[20];
+	int birthday;
+	int height;
+};
 ```
+
 
 
 
