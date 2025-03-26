@@ -106,7 +106,11 @@ To be able to run this code, we need to invoke or [[Compiler]], for simplicity s
 _Supposing your C file was called main.c_
 `./program`
 
-W
+We should get an output like this: 
+```[~]$ ./test
+-4
+3.250000
+```
 ## [[Struct]]s
 We can use our already gained knowledge to combine these various data types in so called [[Struct]]s. A structure is simply a collection of various data types, which are the "fields" of a structure. 
 
