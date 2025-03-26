@@ -101,7 +101,7 @@ int main(int argc, char** argv){
 ```
 
 ## [[Struct]]s
-We can use ou 
+We can use our already gained knowledge to combine these various data types in so called [[Struct]]s. A struct is simply a collection of various data types, that 
 
 
 
