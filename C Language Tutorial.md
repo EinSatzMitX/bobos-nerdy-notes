@@ -101,7 +101,13 @@ int main(int argc, char** argv){
 ```
 
 ## [[Struct]]s
-We can use our already gained knowledge to combine these various data types in so called [[Struct]]s. A struct is simply a collection of various data types, that 
+We can use our already gained knowledge to combine these various data types in so called [[Struct]]s. A structure is simply a collection of various data types, which are the "fields" of a structure. 
+
+```C
+struct person {
+
+}
+```
 
 
 
