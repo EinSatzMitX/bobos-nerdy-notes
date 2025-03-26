@@ -5,6 +5,7 @@ The [[C]] is used for almost every application on every device, thus it it is pr
 
 # **Basics**
 ## Primitive types
+In [[Programming Languages]], there are [[v]]
 Just like most [[Programming Languages]], [[C]] has [[Primitive Data Structures]], such as
 ```C
 /* Added in C23 */
@@ -110,7 +111,7 @@ struct person {
 	int height;
 };
 ```
-
+_Example of a struct called "person"_
 
 
 
