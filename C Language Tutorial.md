@@ -83,3 +83,4 @@ float f2 = f1 / 4.0f;
 
 ```
 
+As a sum-up to the [[Primitive Data Structures]], we will run this block of code 
