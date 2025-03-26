@@ -6,7 +6,7 @@ The [[C]] is used for almost every application on every device, thus it it is pr
 # **Basics**
 ## Primitive types (a.k.a. Variables)
 In [[Programming Languages]], there are [[Variable]]s. You can think of these variables as drawers, which can hold some combination of bits. These [[Variable]]s are stored in [[Memory]] and have an address and size.
-Just like most [[Programming Languages]], [[C]] has [[Primitive Data Structures]], such as
+Just like most [[Programming Languages]], [[C]] has different kinds of [[Variable]] types, or to what this chapter is talking about[[Primitive Data Structures]], such as
 ```C
 /* Added in C23 */
 bool b; /* 1 Byte of storage, can hold values from 0 to 255 */
