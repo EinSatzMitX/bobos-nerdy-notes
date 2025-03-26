@@ -90,10 +90,10 @@ As a sum-up to the [[Primitive Data Structures]], we will run this block of code
 #include <stdio.h>
 
 int main(int argc, char** argv){
-	int i1 = 1-5;
+	int i1 = 1-5; // -4
 	printf("%i\n", i1);
 
-	float f1 = 13.0f / 4.0f;
+	float f1 = 13.0f / 4.0f; // 3.25
 	printf("%f\n", f1);
 
 	// return 0 to indicate or program exited successfully
@@ -101,10 +101,12 @@ int main(int argc, char** argv){
 }
 ```
 
-To be able to run this code, we need to invoke or [[Compiler]], for simplicity sake, let's just run [[GCC]] with these arguments and then execute our :
+To be able to run this code, we need to invoke or [[Compiler]], for simplicity sake, let's just run [[GCC]] with these arguments and then execute our [[Program]]:
 `gcc -c main.c -o program`
 _Supposing your C file was called main.c_
+`./program`
 
+W
 ## [[Struct]]s
 We can use our already gained knowledge to combine these various data types in so called [[Struct]]s. A structure is simply a collection of various data types, which are the "fields" of a structure. 
 
