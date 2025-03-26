@@ -83,4 +83,15 @@ float f2 = f1 / 4.0f;
 
 ```
 
-As a sum-up to the [[Primitive Data Structures]], we will run this block of code 
+As a sum-up to the [[Primitive Data Structures]], we will run this block of code:
+```C
+#include <stdio.h>
+
+int main(int argc, char** argv){
+	
+
+
+	// return 0 to indicate or program exited successfully
+	return 0;
+}
+```
