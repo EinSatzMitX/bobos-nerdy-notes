@@ -88,8 +88,8 @@ As a sum-up to the [[Primitive Data Structures]], we will run this block of code
 #include <stdio.h>
 
 int main(int argc, char** argv){
-	
-
+	int i1 = 1-5
+	printf("%i\n", i1);
 
 	// return 0 to indicate or program exited successfully
 	return 0;
