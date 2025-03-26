@@ -1,5 +1,7 @@
 #Programming #osdev #unix 
 
+Quick note: For a [[C Language Tutorial]] please refer to that note.
+
 C is a [[Compiled Programming Language]], developped by [[Dennis Ritchie]], the creator of [[Unix]], and it first appeared in 1972
 ![[Pasted image 20250306134158.png]] 
 _Picture of Ken Thompson (left) and [[Dennis Ritchie]] (right)_
