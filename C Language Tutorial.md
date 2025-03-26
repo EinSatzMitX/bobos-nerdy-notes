@@ -101,6 +101,8 @@ int main(int argc, char** argv){
 }
 ```
 
+To be able to run this code, we need to invoke or [[Compiler]], for simplicity sake, let's just run [[GCC]] with these arguments:
+`gcc `
 ## [[Struct]]s
 We can use our already gained knowledge to combine these various data types in so called [[Struct]]s. A structure is simply a collection of various data types, which are the "fields" of a structure. 
 
