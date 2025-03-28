@@ -127,6 +127,7 @@ struct person {
 ```
 _Example of a struct called "person"_
 
+To create a variable of this new type, we can use different
 
 
 
