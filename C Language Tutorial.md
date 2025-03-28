@@ -121,7 +121,7 @@ We can use our already gained knowledge to combine these various data types in s
 ```C
 struct person {
 	char name[20];
-	int birthday;
+	int age;
 	int height;
 };
 ```
@@ -132,7 +132,7 @@ To create a variable of this new type, we can use multiple methods, but the firs
 ```C
 struct person Person = {
 	.name = "Albert Einstein     ";
-	.birthday = 
+	.age = 76; 
 };
 ```
 
