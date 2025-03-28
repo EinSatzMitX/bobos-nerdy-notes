@@ -131,10 +131,13 @@ To create a variable of this new type, we can use multiple methods, but the firs
 
 ```C
 struct person Person = {
-	.name = "Albert Einstein     ";
-	.age = 76; 
+	.name = "Albert Einstein     ",
+	.age = 76,
+	.height = 172,
 };
 ```
+_This only works for C99 and higher_
+
 
 
 
