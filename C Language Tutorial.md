@@ -140,9 +140,11 @@ _This only works for C99 and higher_
 
 In the older days, it was the Programmers job to make sure all fields of a struct were in order at initialization
 
+```C
+struct person Person = {
+	"Albert Einstein     ",
+	76,
+	172,
+};
 
-
-
-
-
-
+_Example of old_
