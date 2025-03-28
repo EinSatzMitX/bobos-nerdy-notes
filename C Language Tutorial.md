@@ -131,7 +131,8 @@ To create a variable of this new type, we can use multiple methods, but the firs
 
 ```C
 struct person Person = {
-	.name = ""
+	.name = "Albert Einstein     ";
+	.birthday = 
 };
 ```
 
