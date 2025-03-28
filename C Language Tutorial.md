@@ -127,7 +127,13 @@ struct person {
 ```
 _Example of a struct called "person"_
 
-To create a variable of this new type, we can use different
+To create a variable of this new type, we can use multiple methods, but the first one is the most common
+
+```C
+struct person Person = {
+	.name = ""
+};
+```
 
 
 
