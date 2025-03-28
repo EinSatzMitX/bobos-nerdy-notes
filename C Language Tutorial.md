@@ -146,5 +146,7 @@ struct person Person = {
 	76,
 	172,
 };
+```
+_Example for older standards of C_
 
-_Example of old_
+
