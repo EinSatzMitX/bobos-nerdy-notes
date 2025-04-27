@@ -163,7 +163,12 @@ _Example for older standards of C_
 
 ## Type Casting 
 This isn't really worth creating a new chapter, but you should still know about it: Type casting.
-You have now learned about some basic types of the C Programming Language, but 
+You have now learned about some basic types of the C Programming Language, but especially when dealing with pointers,  you're going to do a lot of type conversions.
+```C
+int a = 5;
+long b = 6;
+double = c = 5.5f;
+```
 
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
