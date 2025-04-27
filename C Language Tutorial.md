@@ -346,6 +346,7 @@ Take a video game as an example, where there are a number of entities. You can c
 ```C
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct entity{
 	char name[64];
@@ -356,35 +357,63 @@ typedef struct entity{
 } entity;
 
 void update1(float dt){
-	printf("[Update1]: Delta time: %f", dt);
+	printf("[Update1]: Delta time: %f\n", dt);
 }
 
 void update2(float dt){
-	printf("[Update2]: Delta time: %f", dt);
+	printf("[Update2]: Delta time: %f\n", dt);
 }
 
 int main(int argc, char** argv){
+  /* ---- Stack example ---- */
 	/* ALOT of unnecessary allocations and wasted memory space */
 	entity stack_array[100];
 	entity stack_entity = {
+    .name = "",
 		.update = update1,
 		.health = 100,
 	};
+  /* Copy the string into to the character array of the entity */
+  strcpy(stack_entity.name, "Stack Entity");
+  /* Make an entry for stack_entity */
 	stack_array[0] = stack_entity;
+
 	// 99 entities allocated for no reason...
-	printf("Wasted space on the stack: %i", 99*sizeof(entity));
+	printf("Wasted space on the stack: %zu\n", 99*sizeof(entity));
 
 
-	/* Heap example */
-	entity** heap_array;
+  /* ---- Heap example ---- */
+	entity** heap_array = (entity**)malloc(sizeof(entity*)); /* Cast the output of malloc() from a void* to an entity** (this is not necessary, but I'm still doing it for demonstration purposes) */
 	entity* heap_entity = (entity*)malloc(sizeof(entity));
+
+  /* Set the fields of the heap entity */
+  heap_entity->update = update2;
+  heap_entity->health = 50;
+  snprintf(heap_entity->name, 64, "Heap entity");
+
 	heap_array[0] = heap_entity;
 	/* Way less space wasted */
-	printf("Wasted space on the stack (yes stack, not heap): %i", 99*sizeof(entity*));
+	printf("Wasted space on the stack (yes stack, not heap): %zu\n", 99*sizeof(entity*));
+
+
+
+  stack_array[0].update(0.016f);
+  heap_array[0]->update(0.016f);
+
+  /* ---- DON'T FORGET TO FREE EVERYTHING THAT WAS ALLOCATED ON THE HEAP, AS THIS CAN LEAD TO MEMORY CORRUPTION BUGS ---- */
+  free(heap_entity);
+  free(heap_array);
+  /* It is also smart to set the pointers to NULL, so that you can't try to use the addresses anymore (This has caused 9.x exploit in browsers not too long ago) */
+  heap_entity = NULL;
+  heap_array = NULL;
 
 	return 0;
 }
 ```
+_Don't worry about all the string functions starting with "str", you'll learn how to use them after some time, and if not, you can always just look them up_
+Now I know, 
+
+
 
 ```terminal
 [~]$ gcc test.c -o test                                                                                                                                               
