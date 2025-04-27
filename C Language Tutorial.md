@@ -189,6 +189,8 @@ test.c:8:26: error: ‘c’ undeclared (first use in this function)
       |                          ^
 test.c:8:26: note: each undeclared identifier is reported only once for each function it appears in
 ```
+_Compiler complains because of the types _
+
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
 
