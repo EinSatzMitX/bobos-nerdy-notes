@@ -262,5 +262,7 @@ int main(){
 	return 0;
 }
 ```
-_This is an example in pseudo code, of how _
+_This is an example in pseudo code, of how you can creates classes and "methods" in [[OOP]] languages_
+
+In this example we create a class "foo" with a [[Method]] "bar" and then run that 
 
