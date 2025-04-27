@@ -347,5 +347,15 @@ Take a video game as an example, where there are a number of entities. You can c
 typedef struct entity{
 	char name[64];
 	
+	void (*update)(float);
+
+	int health;
 } entity;
+
+int main(int argc, char** argv){
+	entity 
+
+
+	return 0;
+}
 ```
