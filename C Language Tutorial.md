@@ -152,4 +152,93 @@ _Example for older standards of C_
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
 
+A [[Pointer]] is marked with an ' * ' character and it can point to a specific [[Variable]], that is stored at an address in [[Memory]].
+The '*' 
+
+```C
+#include <stdio.h>
+
+int main(int argc, char** argv /* char** is actually a opinter as well, in this case it points to the beginning of an array of char* (strings) */)
+{
+	/* Create a variable of type integer called "a" with a value of 5 */
+	int a = 5;
+	/* Create a pointer to an integer called "pA" which holds the address of a as its value */
+	int * pA = &a;
+
+	/* prints the value at the address stored in pA to the console in form of an integer (followed by a newline character) */
+	printf("%i\n", *pA);
+
+	return 0;
+}
+```
+
+``` 
+[~/tmp/test]$ gcc main.c -o main      
+[~/tmp/test]$ ./main
+5
+[~/tmp/test]$ 
+```
+
+As showcased in this example, ' * ' after a [[Data Structure]] indicates that the [[Variable]] will hold a pointer to that [[Data Structure]], although there can be some confusion:
+```C
+/* The same*/
+int * a, b, c;
+int *a;
+int b;
+int c;
+```
+
+The ' * ' before a variable can be read as "the value at the address which the variable holds"
+The '&' before a variable can be read as "the address of the variable" 
+
+```C
+int a = 5;
+int * pA = &a;
+int b = *pA + 1;
+```
+`a = 5`
+`b = 6`
+
+Just like most other [[Programming Languages]], C also has [[Array]]s starting at 0 (FUCK YOU LUA!!!). They can hold any [[Data Structure]], even other [[Array]]s to create a multi-dimensional [[Array]]. Even though [[Array]]s are a really good [[Data Structure]] and they can be extremely fast when they're stored on the [[Stack]], they are not perfectly suited for every use case because their size needs to be known when declaring them. [[Pointer]]s can also be used to represent an [[Array]].
+```C
+int array[8]; /* Fixed-size array that can hold 8 integers */
+/* Cast the return value of malloc as int* */
+int * cooler_array = (int*)malloc(sizeof(int) * 8); /* Also fixed-size array that holds 8 integers BUT it can be reallocated */
+cooler_array = (int*)realloc(cooler_array, sizeof(int) * newsize);
+```
+
+Back to our problem with the [[String]] not being a standard variable in C, we can actually solve it by using an array
+```C
+char my_string[10] = "0123456789";
+char* cooler_string = "0123456789"; /* The compiler automatically makes space for our array contents */
+
+printf("%i\n", cooler_string[9]);
+```
+`stdout: 9`
+
+This means that a string, indicated by "", is actually just a char*, or in other words a memory address we can manipulate. This is called [[Pointer Arithmetic]].
+
+```C
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+	char* string = "abcdefghij";
+	int f = *(string + sizeof(char)*5);
+
+	printf("%c", a);
+
+	return 0;
+}
+```
+_In this example a char* called "string" is created, which points to the string "abcdefghij". When increasing that variable called "string" we're effectively increasing the address it points to, so when we now print the char it points to by using %c as our specifier we get 'f' as an output_
+
+The Programmer can also create a [[Pointer]] to an [[Array]].
+```C
+/* Pointer of a 10 elements large integer array */
+int (*ptr)[10];
+/* Array of 10 pointers to integers */
+int *ptr[10];
+```
+_Example of how easily to confuse different pointer arrays with array pointers_
 
