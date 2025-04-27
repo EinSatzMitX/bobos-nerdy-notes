@@ -1,7 +1,7 @@
 #Programming 
 **Tutorial for the [[C]]/[[C++]] [[Programming Languages]]**
 
-The [[C]] is used for almost every application on every device, thus it it is probably a smart idea to learn it.
+The [[C]] is used for almost every application on every device, thus it it is probably a smart idea to learn it. The language is pretty old though and thus has a lot of standards
 
 # **Basics**
 ## Primitive types (a.k.a. Variables)
