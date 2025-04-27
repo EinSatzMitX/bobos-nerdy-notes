@@ -440,4 +440,4 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- Inline functions vs. macros 
 		- Inline assembly
 	- setjmp/longjmp for error handling
-	
+	- std
