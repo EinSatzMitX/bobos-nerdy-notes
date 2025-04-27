@@ -432,5 +432,6 @@ Wasted space on the stack (yes stack, not heap): 792
 ```
 _Using the heap used 90% less space than using the stack, note that sizes may vary on different machines_
 
-# Advanced topics
-## TODO
+# Intermediate topics
+## TODO:
+	- 
