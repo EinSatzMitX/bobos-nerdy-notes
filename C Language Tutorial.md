@@ -165,9 +165,15 @@ _Example for older standards of C_
 This isn't really worth creating a new chapter, but you should still know about it: Type casting.
 You have now learned about some basic types of the C Programming Language, but especially when dealing with pointers,  you're going to do a lot of type conversions.
 ```C
-int a = 5;
-long b = 6;
-double = c = 5.5f;
+int main(int argc, char** argv){
+	int a = 5;
+	long b = 6;
+	double = c = 5.5f;
+
+	printf("%i", a+b+c);
+
+	return 0;
+}
 ```
 
 ## Pointers
