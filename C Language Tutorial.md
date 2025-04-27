@@ -271,7 +271,11 @@ Well, it's actually kind of similar, but instead of [[Method]]s, we use [[Functi
 
 ```C
 typedef struct foo{
-	(void*)(bar)
+	void(*bar)(void);
 } foo;
+
+int main(){
+	foo 
+}
 ```
 
