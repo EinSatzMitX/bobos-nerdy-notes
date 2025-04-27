@@ -270,6 +270,8 @@ There are no classes in C, so how do we do things there?
 Well, it's actually kind of similar, but instead of [[Method]]s, we use [[Function Pointer]]s.
 
 ```C
+#include <stdlib.h>
+
 typedef struct foo{
 	void(*bar)(void);
 } foo;
@@ -287,3 +289,4 @@ int main(){
 ```
 _This is exactly the same as the pseudo code example before. Note how we use '->' instead of '.' because foobar2 is a pointer and to run the function we have to run whatever code stands at the address of foobar2 + the offset for the funtion bar_
 
+Now 
