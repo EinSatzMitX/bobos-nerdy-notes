@@ -369,7 +369,11 @@ int main(int argc, char** argv){
 		.update = update1,
 		.health = 100,
 	};
-	// 99 entities 
+	// 99 entities allocated for no reason...
+
+	/* Heap example */
+	entity** heap_array;
+	
 
 
 	return 0;
