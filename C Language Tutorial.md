@@ -189,7 +189,10 @@ test.c:8:26: error: ‘c’ undeclared (first use in this function)
       |                          ^
 test.c:8:26: note: each undeclared identifier is reported only once for each function it appears in
 ```
-_Compiler complains because of the types _
+_Compiler complains because the types are incorrect_
+
+This code makes absolute sense, we're adding numbers with numbers and printing them to the conso
+To get this code to compile
 
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
