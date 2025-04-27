@@ -289,4 +289,4 @@ int main(){
 ```
 _This is exactly the same as the pseudo code example before. Note how we use '->' instead of '.' because foobar2 is a pointer and to run the function we have to run whatever code stands at the address of foobar2 + the offset for the funtion bar_
 
-Now this actually gives us a Segfault, because both foobar and foobar2 haven't initialized their functions yet. So in this code example we try to run the code that stands at the address of foobar2->bar. This is mostly just NULL, but it can be virtually anything, theoretically it could be actual code that hasn't been cleaned up by the OS and this 
+Now this actually gives us a Segfault, because both foobar and foobar2 haven't initialized their functions yet. So in this code example we try to run the code that stands at the address of foobar2->bar. This is mostly just NULL, but it can be virtually anything, theoretically it could be actual code that hasn't been cleaned up by the OS and that leads to what we call "[[Undefined Behaviour]]". That is why the OS gives us a segmentation fault, not because it hates us and doesn't want to let us run the code, but because it wants to protect u
