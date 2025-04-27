@@ -411,7 +411,9 @@ int main(int argc, char** argv){
 }
 ```
 _Don't worry about all the string functions starting with "str", you'll learn how to use them after some time, and if not, you can always just look them up_
-Now I know, 
+Now I know, there is a lot going on here, but when breaking it down, it's actually quite simple.
+At first we define the entity struct and the two update functions.
+In main, we create an array of entities on
 
 
 
