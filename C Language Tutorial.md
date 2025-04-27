@@ -9,10 +9,10 @@ Here is a list of all official C standards
 | 1972                                         | first release           | -                                   |
 | 1978                                         | K&R C                   | -                                   |
 | 1989, 1990                                   | ANSI C, C89, ISO C, C90 | ANSI X3.159-1989  ISO/IEC 9899:1990 |
-| 1999                                         | C99, C9X                | ISO/IEC 9899:1999                   |
+| 1999                                         | C99, C9X, "modern C"    | ISO/IEC 9899:1999                   |
 | 2011                                         | C11, C1X                | ISO/IEC 9899:2011                   |
 | 2018                                         | C17, C18                | ISO/IEC 9899:2018                   |
-| 2024                                         | C23, C2X                | ISO/IEC 9899:2024                   |
+| 2024                                         | C23, C2X, "latest C"    | ISO/IEC 9899:2024                   |
 | <abbr title="To be announced">TBA</abbr><br> | C2Y                     | ...                                 |
 
 # **Basics**
