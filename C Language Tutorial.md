@@ -335,4 +335,5 @@ _In the output you can see that it works now! :D_
 	- Enums
 
 ## Memory management
-I haven't r
+I haven't really talked about the most important topic of the C Programming Language: Managing [[Memory]]. 
+This is easier said than done, especially in C, a language without a [[Garbage Collector]]. 
