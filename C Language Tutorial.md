@@ -414,7 +414,9 @@ _Don't worry about all the string functions starting with "str", you'll learn ho
 Now I know, there is a lot going on here, but when breaking it down, it's actually quite simple.
 At first we define the entity struct and the two update functions.
 In main, we create an array of entities on the stack and then create one entity that we will enter into the array, the rest is left empty.
-Note that 
+Note that filling in the fields of the entity variable wasn't necessary for this example.
+
+When finished with the stack version of the array6
 
 
 ```terminal
