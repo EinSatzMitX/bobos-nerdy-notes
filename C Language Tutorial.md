@@ -344,6 +344,8 @@ The stack is extremely fast, compared to the [[Heap]], but the heap is still nec
 Take a video game as an example, where there are a number of entities. You can create an array of entities, but allocating the space for all of them right at the start of the program would be stupid, especially if the entity struct holds something like an array for the name as a field, because you often don't even need to use all of them. So instead you allocate the entities all individually on the [[Heap]]. The heap is just a fixed region of [[Memory]], which stores all kinds of (writable) data. In contrast to the stack, the heap doesn't require the data to be in a specific order and in can even be scattered across multiple pages (read: [[Paging]]).
 
 ```C
+#include <stdio.h>
+
 typedef struct entity{
 	char name[64];
 	
@@ -352,7 +354,9 @@ typedef struct entity{
 	int health;
 } entity;
 
-
+void update1(float dt){
+	printf("Delta time: %f", dt);
+}
 
 int main(int argc, char** argv){
 	/* ALOT of unnecessary allocations and wasted memory space */
