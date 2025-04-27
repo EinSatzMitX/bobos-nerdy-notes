@@ -345,6 +345,7 @@ Take a video game as an example, where there are a number of entities. You can c
 
 ```C
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct entity{
 	char name[64];
@@ -379,7 +380,7 @@ int main(int argc, char** argv){
 	entity* heap_entity = (entity*)malloc(sizeof(entity));
 	heap_array[0] = heap_entity;
 	/* Way less space wasted */
-	printf("W")
+	printf("Wasted space on the stack (yes stack, not heap): %i", 99*sizeof(entity*));
 
 	return 0;
 }
