@@ -159,7 +159,7 @@ The '&' ("Ampersand") character in front of a variable takes the address of that
 ```C
 #include <stdio.h>
 
-int main(int argc, char** argv /* char** is actually a opinter as well, in this case it points to the beginning of an array of char* (strings) */)
+int main(int argc, char** argv /* char** is actually a pointer as well, in this case it points to the beginning of an array of char* (strings) */)
 {
 	/* Create a variable of type integer called "a" with a value of 5 */
 	int a = 5;
