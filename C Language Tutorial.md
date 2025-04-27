@@ -264,5 +264,8 @@ int main(){
 ```
 _This is an example in pseudo code, of how you can creates classes and "methods" in [[OOP]] languages_
 
-In this example we create a class "foo" with a [[Method]] "bar" and then run that 
+In this example we create a class "foo" with a [[Method]] "bar" and then run that method for a variable called "foobar" of this type "foo".
+
+There are no classes in C, so how do we do things there?
+Well, it's 
 
