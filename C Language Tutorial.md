@@ -206,6 +206,13 @@ int main(int argc, char** argv){
 	return 0;
 }
 ```
+_Corrected version using type casts_
+```terminal
+[~]$ gcc test.c -o test                                                        
+[~]$ ./test                                                                    
+16.500000
+```
+_The program now successfully compiles and runs!_
 
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
