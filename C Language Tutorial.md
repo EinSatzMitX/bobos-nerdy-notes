@@ -177,7 +177,18 @@ int main(int argc, char** argv){
 	return 0;
 }
 ```
-
+_Example on how NOT to do it_
+```terminal
+[~]$ gcc test.c -o test                                                        
+test.c: In function ‘main’:
+test.c:6:16: error: expected identifier or ‘(’ before ‘=’ token
+    6 |         double = c = 5.5f;
+      |                ^
+test.c:8:26: error: ‘c’ undeclared (first use in this function)
+    8 |         printf("%i", a+b+c);
+      |                          ^
+test.c:8:26: note: each undeclared identifier is reported only once for each function it appears in
+```
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
 
