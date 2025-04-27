@@ -192,7 +192,10 @@ test.c:8:26: note: each undeclared identifier is reported only once for each fun
 _Compiler complains because the types are incorrect_
 
 This code makes absolute sense, we're adding numbers with numbers and printing them to the console, but not all number variable types are the same. Floats and integers can't directly by added together, we have to cast them to another type first.
-We can do this by writing the ne
+We can do this by writing the new variable type in front of the variable we want to convert.
+```C
+
+```
 
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
