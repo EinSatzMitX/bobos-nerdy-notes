@@ -319,3 +319,13 @@ int main(){
 
 	return 0;
 }
+```
+_Corrected from the example above_
+
+```terminal
+[~]$ gcc test.c -o test                                                                                                                                               
+[~]$ ./test                                                                                                                                                           
+This is the bar function from foobar!
+This is the bar function from foobar2!
+```
+__
