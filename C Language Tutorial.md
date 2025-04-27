@@ -369,6 +369,7 @@ int main(int argc, char** argv){
 		.update = update1,
 		.health = 100,
 	};
+	stack_array[0] = stack_entity;
 	// 99 entities allocated for no reason...
 	printf("Wasted space on the stack: %i", 99*sizeof(entity));
 
@@ -376,8 +377,9 @@ int main(int argc, char** argv){
 	/* Heap example */
 	entity** heap_array;
 	entity* heap_entity = (entity*)malloc(sizeof(entity));
-	heap_array[]
-
+	heap_array[0] = heap_entity;
+	/* Way less space wasted */
+	printf("W")
 
 	return 0;
 }
