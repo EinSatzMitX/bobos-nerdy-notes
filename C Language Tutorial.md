@@ -355,15 +355,21 @@ typedef struct entity{
 } entity;
 
 void update1(float dt){
-	printf("Delta time: %f", dt);
+	printf("[Update1]: Delta time: %f", dt);
+}
+
+void update2(float dt){
+	printf("[Update2]: Delta time: %f", dt);
 }
 
 int main(int argc, char** argv){
 	/* ALOT of unnecessary allocations and wasted memory space */
 	entity stack_array[100];
 	entity stack_entity = {
-		
-	}
+		.update = update1,
+		.health = 100,
+	};
+	// 99 entities 
 
 
 	return 0;
