@@ -417,6 +417,7 @@ In main, we create an array of entities on the stack and then create one entity 
 Note that filling in the fields of the entity variable wasn't necessary for this example.
 
 When finished with the stack version of the array, we start allocating the space for 100 entity pointers in the heap and then we allocate space for one entity on the heap as well.
+Note that entity** is an array of entity*. After all, it is just a pointer, which points to the first entity 
 
 
 ```terminal
