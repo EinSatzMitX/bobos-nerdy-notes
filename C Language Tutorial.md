@@ -437,4 +437,7 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- Preprocessor and compiler control (partly) (e.g. #define, #pragma, ...)
 	- storage classes (auto, static, ..) and type qualifiers (const, volatile, restrict)
 	- "Variadic" Functions (stdarg.h, va_lsit, va_start, ...)
-	- 
+	- Inline functions vs. macros 
+		- Inline assembly
+	- setjmp/longjmp for error handling
+	
