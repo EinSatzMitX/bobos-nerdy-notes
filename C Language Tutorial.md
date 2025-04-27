@@ -434,6 +434,7 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 
 # Intermediate Topics
 ## TODO:
+	- Building tookls
 	- Preprocessor and compiler control (partly) (e.g. #define, #pragma, ...)
 	- storage classes (auto, static, ..) and type qualifiers (const, volatile, restrict)
 	- "Variadic" Functions (stdarg.h, va_lsit, va_start, ...)
@@ -442,6 +443,8 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- setjmp/longjmp for error handling
 	- stdlib I/O
 	- Low Level I/O
+	- Error Handling (errno, perror, assert.h)
+	- Debugging with gdb
 
 
 
