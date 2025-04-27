@@ -385,3 +385,13 @@ int main(int argc, char** argv){
 	return 0;
 }
 ```
+
+```terminal
+[~]$ gcc test.c -o test                                                                                                                                               
+[~]$ ./test                                                                                                                                                           
+Wasted space on the stack: 7920
+Wasted space on the stack (yes stack, not heap): 792
+[Update1]: Delta time: 0.016000
+[Update2]: Delta time: 0.016000
+```
+_Using the heap used 90% less space than using the stack_
