@@ -419,7 +419,8 @@ Note that filling in the fields of the entity variable wasn't necessary for this
 When finished with the stack version of the array, we start allocating the space for 100 entity pointers in the heap and then we allocate space for one entity on the heap as well.
 Note that entity** is an array of entity*. After all, it is just a pointer, which points to the first entity in an array of entity pointers (Let that sink in for a second).
 
-After using all the heap data, make sure to free it, as not doing so will lead to [[Memor]] 
+After using all the heap data, make sure to free it, as not doing so will lead to [[Memory Corruption]] and, who guessed it, [[Undefined Behaviour]].
+It is also recommended to set all pointers to heap data to NULL after freeing them
 
 
 ```terminal
