@@ -339,4 +339,4 @@ I haven't really talked about the most important topic of the C Programming Lang
 This is easier said than done, especially in C, a language without a [[Garbage Collector]]. Here, the memory management relies completely on you, the programmer.
 
 To know more about Memory management, you have to know what a [[Stack]] and a [[Heap]] are.
-The core concept of a [[Stack]] is, that you can put stuff at the "top" of the stack and you can only take (or "pop") the
+The core concept of a [[Stack]] is, that you can put stuff at the "top" of the stack and you can only take (or "pop") the item on the top. You can imagine it like a stack of paper
