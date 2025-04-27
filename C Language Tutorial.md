@@ -328,4 +328,4 @@ _Corrected from the example above_
 This is the bar function from foobar!
 This is the bar function from foobar2!
 ```
-__
+_In the output you can see that it works now! :D_
