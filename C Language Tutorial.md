@@ -170,9 +170,9 @@ You have now learned about some basic types of the C Programming Language, but e
 int main(int argc, char** argv){
 	int a = 5;
 	long b = 6;
-	double = c = 5.5f;
+	float = c = 5.5f;
 
-	printf("%i", a+b+c);
+	printf("%f", a+b+c);
 
 	return 0;
 }
@@ -194,7 +194,17 @@ _Compiler complains because the types are incorrect_
 This code makes absolute sense, we're adding numbers with numbers and printing them to the console, but not all number variable types are the same. Floats and integers can't directly by added together, we have to cast them to another type first.
 We can do this by writing the new variable type in front of the variable we want to convert.
 ```C
+#include <stdio.h>
 
+int main(int argc, char** argv){
+	int a = 5;
+	long b = 6;
+	float c = 5.5f;
+
+	printf("%f", (float)a+(double)b+c);
+
+	return 0;
+}
 ```
 
 ## Pointers
