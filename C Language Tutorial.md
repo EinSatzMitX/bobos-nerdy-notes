@@ -330,6 +330,9 @@ This is the bar function from foobar2!
 ```
 _In the output you can see that it works now! :D_
 
-TO: 
+## TODO:
+	- Unions
+	- Enums
 
 ## Memory management
+I haven't r
