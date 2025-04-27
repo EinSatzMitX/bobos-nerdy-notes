@@ -446,4 +446,5 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 
 
 # Advanced Topics
-	-Concurrency
+	- Concurrency, Threads, Processes, Signals, ...
+	- Optimization
