@@ -154,7 +154,7 @@ One of the most challenging concepts for most beginners are pointers. But they'r
 
 A [[Pointer]] is marked with an ' * ' character and it can point to a specific [[Variable]], that is stored at an address in [[Memory]].
 The ' * ' character in front of a pointer variable means that, the variable is "dereferenced", which means  the values at the address stored in that pointer is being used.
-The '&' ("Ampersand") character in front of a variable
+The '&' ("Ampersand") character in front of a variable takes the address of that variable, so this can be used to create a pointer (as shown in the example below).
 
 ```C
 #include <stdio.h>
