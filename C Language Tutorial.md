@@ -279,10 +279,10 @@ int main(){
 	foobar.bar();
 
 	/* This is an example that is more common in C */
-	foo *foobar = malloc(sizeof(foo));
-	
+	foo *foobar2 = malloc(sizeof(foo));
+	foobar2->bar();
 
 	return 0;
 }
 ```
-_This is exactly the same as the pseudo code example before. Note how we use '->' instead of '.' because_
+_This is exactly the same as the pseudo code example before. Note how we use '->' instead of '.' because foobar2 is a pointer and to run the function we have to_
