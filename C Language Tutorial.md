@@ -200,6 +200,8 @@ int b = *pA + 1;
 `a = 5`
 `b = 6`
 
+
+## Arrays and Pointers
 Just like most other [[Programming Languages]], C also has [[Array]]s starting at 0 (FUCK YOU LUA!!!). They can hold any [[Data Structure]], even other [[Array]]s to create a multi-dimensional [[Array]]. Even though [[Array]]s are a really good [[Data Structure]] and they can be extremely fast when they're stored on the [[Stack]], they are not perfectly suited for every use case because their size needs to be known when declaring them. [[Pointer]]s can also be used to represent an [[Array]].
 ```C
 int array[8]; /* Fixed-size array that can hold 8 integers */
@@ -242,4 +244,6 @@ int (*ptr)[10];
 int *ptr[10];
 ```
 _Example of how easily to confuse different pointer arrays with array pointers_
+
+
 
