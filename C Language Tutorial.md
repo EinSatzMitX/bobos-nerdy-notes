@@ -420,8 +420,7 @@ When finished with the stack version of the array, we start allocating the space
 Note that entity** is an array of entity*. After all, it is just a pointer, which points to the first entity in an array of entity pointers (Let that sink in for a second).
 
 After using all the heap data, make sure to free it, as not doing so will lead to [[Memory Corruption]] and, who guessed it, [[Undefined Behaviour]].
-It is also recommended to set all pointers to heap data to NULL after freeing them
-
+It is also recommended to set all pointers to heap data to NULL after freeing them, because using them will lead to "Use-after-free" [[Bug]]s, which can ALSO lead to serious security issues and [[Undefined Behaviour]].
 
 ```terminal
 [~]$ gcc test.c -o test                                                                                                                                               
@@ -431,4 +430,4 @@ Wasted space on the stack (yes stack, not heap): 792
 [Update1]: Delta time: 0.016000
 [Update2]: Delta time: 0.016000
 ```
-_Using the heap used 90% less space than using the stack, sizes can vary on different machines_
+_Using the heap used 90% less space than using the stack, note that sizes can vary on different machines_
