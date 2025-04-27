@@ -289,4 +289,4 @@ int main(){
 ```
 _This is exactly the same as the pseudo code example before. Note how we use '->' instead of '.' because foobar2 is a pointer and to run the function we have to run whatever code stands at the address of foobar2 + the offset for the funtion bar_
 
-Now 
+Now this actually gives us a Segfault, because both foobar and foobar2 haven't initialized
