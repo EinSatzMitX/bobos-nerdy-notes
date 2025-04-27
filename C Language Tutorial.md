@@ -338,4 +338,5 @@ _In the output you can see that it works now! :D_
 I haven't really talked about the most important topic of the C Programming Language: Managing [[Memory]]. 
 This is easier said than done, especially in C, a language without a [[Garbage Collector]]. Here, the memory management relies completely on you, the programmer.
 
-To know more about Memory management, you have to know what a [[Stack]] and a [[ħ]]
+To know more about Memory management, you have to know what a [[Stack]] and a [[Heap]] are.
+The core concept is, that on a [[Stack]], you can
