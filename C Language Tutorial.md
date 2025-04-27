@@ -432,7 +432,7 @@ Wasted space on the stack (yes stack, not heap): 792
 ```
 _Using the heap used 90% less space than using the stack, note that sizes may vary on different machines_
 
-# Intermediate topics
+# Intermediate Topics
 ## TODO:
 	- Preprocessor and compiler control (partly) (e.g. #define, #pragma, ...)
 	- storage classes (auto, static, ..) and type qualifiers (const, volatile, restrict)
@@ -440,4 +440,10 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- Inline functions vs. macros 
 		- Inline assembly
 	- setjmp/longjmp for error handling
-	- std
+	- stdlib I/O
+	- Low Level I/O
+
+
+
+# Advanced Topics
+	-Concurrency
