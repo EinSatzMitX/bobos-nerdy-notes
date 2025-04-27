@@ -247,6 +247,6 @@ _Example of how easily to confuse different pointer arrays with array pointers_
 
 ## Function Pointers
 If you know some [[OOP]], this will probably be a bit easier for you, but if not that's still okay.
-We have already discussed Pointers by now
+We have already discussed Pointers by now, but all of them were pointers to specific [[Data Structure]]s. We now want to step it up by
 
 
