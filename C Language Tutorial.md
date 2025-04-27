@@ -416,7 +416,7 @@ At first we define the entity struct and the two update functions.
 In main, we create an array of entities on the stack and then create one entity that we will enter into the array, the rest is left empty.
 Note that filling in the fields of the entity variable wasn't necessary for this example.
 
-When finished with the stack version of the array, we start allocating the space for 100 entity pointers in the heap
+When finished with the stack version of the array, we start allocating the space for 100 entity pointers in the heap and then we allocate for one entity
 
 
 ```terminal
