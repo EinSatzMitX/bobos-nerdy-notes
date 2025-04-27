@@ -161,6 +161,9 @@ struct person Person = {
 ```
 _Example for older standards of C_
 
+## Type Casting 
+This isn't really worth creating a new ch
+
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
 
