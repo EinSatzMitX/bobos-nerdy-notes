@@ -149,4 +149,7 @@ struct person Person = {
 ```
 _Example for older standards of C_
 
+## Pointers
+One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, 
+
 
