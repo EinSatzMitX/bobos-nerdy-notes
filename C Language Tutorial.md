@@ -352,10 +352,14 @@ typedef struct entity{
 	int health;
 } entity;
 
+
+
 int main(int argc, char** argv){
 	/* ALOT of unnecessary allocations and wasted memory space */
 	entity stack_array[100];
-	entity
+	entity stack_entity = {
+		
+	}
 
 
 	return 0;
