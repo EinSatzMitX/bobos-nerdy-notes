@@ -341,4 +341,4 @@ This is easier said than done, especially in C, a language without a [[Garbage C
 To know more about Memory management, you have to know what a [[Stack]] and a [[Heap]] are.
 The core concept of a [[Stack]] is, that you can put stuff at the "top" of the stack and you can only take (or "pop") the item on the top. You can imagine it like a stack of paper sheets.
 The stack is extremely fast, compared to the [[Heap]], but the heap is still necessary for dynamically allocating memory. 
-Take a video game as an example, where there are a number of entities. You can create an array of entities, but allocating the space for all of them right at the start of the program would be stupid, because you often dont even need to use all of them
+Take a video game as an example, where there are a number of entities. You can create an array of entities, but allocating the space for all of them right at the start of the program would be stupid, because you often dont even need to use all of them. So instead you allocate them all individually on the [[Heap]]. The heap is just a fixed region of [[Memory]], which stores all kinds of (writable) data.
