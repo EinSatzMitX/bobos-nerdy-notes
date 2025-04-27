@@ -416,7 +416,7 @@ At first we define the entity struct and the two update functions.
 In main, we create an array of entities on the stack and then create one entity that we will enter into the array, the rest is left empty.
 Note that filling in the fields of the entity variable wasn't necessary for this example.
 
-When finished with the stack version of the array6
+When finished with the stack version of the array, we start allocating the space for 100 entity pointers in the heap
 
 
 ```terminal
@@ -427,4 +427,4 @@ Wasted space on the stack (yes stack, not heap): 792
 [Update1]: Delta time: 0.016000
 [Update2]: Delta time: 0.016000
 ```
-_Using the heap used 90% less space than using the stack_
+_Using the heap used 90% less space than using the stack, sizes can vary on different machines_
