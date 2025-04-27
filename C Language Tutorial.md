@@ -376,6 +376,7 @@ int main(int argc, char** argv){
 	/* Heap example */
 	entity** heap_array;
 	entity* heap_entity = (entity*)malloc(sizeof(entity));
+	heap_array[]
 
 
 	return 0;
