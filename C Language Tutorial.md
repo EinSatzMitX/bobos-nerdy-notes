@@ -4,11 +4,12 @@
 The [[C]] is used for almost every application on every device, thus it it is probably a smart idea to learn it. The language is pretty old though and thus has a lot of different compilers, which requires it to have standards, which define specific rules and behaviors of the [[Compiler]]s.
 Here is a list of all official C standards
 
-| Year       | Informal name           | Official standard |
-| ---------- | ----------------------- | ----------------- |
-| 1972       | first release           | -                 |
-| 1978       | K&R C                   | -                 |
-| 1989, 1990 | ANSI C, C89, ISO C, C90 | ANSI              |
+| Year       | Informal name           | Official standard                   |
+| ---------- | ----------------------- | ----------------------------------- |
+| 1972       | first release           | -                                   |
+| 1978       | K&R C                   | -                                   |
+| 1989, 1990 | ANSI C, C89, ISO C, C90 | ANSI X3.159-1989  ISO/IEC 9899:1990 |
+| 1999       | C99, C9X                | ISO/                                |
 
 # **Basics**
 ## Primitive types (a.k.a. Variables)
