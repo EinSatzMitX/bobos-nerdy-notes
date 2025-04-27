@@ -275,7 +275,10 @@ typedef struct foo{
 } foo;
 
 int main(){
-	foo 
+	foo foobar;
+	foobar->bar();
+
+	return 0;
 }
 ```
-
+_This is exactly the same as the pseudo code example before. Note how we use '->' instead of '.' because_
