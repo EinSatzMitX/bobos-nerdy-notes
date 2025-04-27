@@ -276,7 +276,11 @@ typedef struct foo{
 
 int main(){
 	foo foobar;
-	foobar->bar();
+	foobar.bar();
+
+	/* This is an example that is more common in C */
+	foo *foobar = malloc(sizeof(foo));
+	
 
 	return 0;
 }
