@@ -252,8 +252,15 @@ We now want to step it up by creating pointers to actual code!
 
 ```Pseudo-code
 class foo{
-	void bar()
+	void bar();
+}
+
+int main(){
+	foo foobar;
+	foobar.bar();
+	
+	return 0;
 }
 ```
-
+_This is an example in pseudo code, of how _
 
