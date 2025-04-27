@@ -162,7 +162,8 @@ struct person Person = {
 _Example for older standards of C_
 
 ## Type Casting 
-This isn't really worth creating a new ch
+This isn't really worth creating a new chapter, but you should still know about it: Type casting.
+You have now learned about some basic types of the C Programming Language, but 
 
 ## Pointers
 One of the most challenging concepts for most beginners are pointers. But they're actually not even so hard to understand, if you know the syntax
