@@ -246,6 +246,7 @@ int *ptr[10];
 _Example of how easily to confuse different pointer arrays with array pointers_
 
 ## Function Pointers
-If you know some [[OOP]], this will probably be a bit easie
+If you know some [[OOP]], this will probably be a bit easier for you, but if not that's still okay.
+We have already discussed Pointers by now
 
 
