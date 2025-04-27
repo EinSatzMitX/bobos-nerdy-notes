@@ -12,7 +12,8 @@ Here is a list of all official C standards
 | 1999       | C99, C9X                | ISO/IEC 9899:1999                   |
 | 2011       | C11, C1X                | ISO/IEC 9899:2011                   |
 | 2018       | C17, C18                | ISO/IEC 9899:2018                   |
-|            |                         |                                     |
+| 2024       | C23, C2X                | ISO/IEC 9899:2024                   |
+| TBA        | C2Y                     | ...                                 |
 
 # **Basics**
 ## Primitive types (a.k.a. Variables)
