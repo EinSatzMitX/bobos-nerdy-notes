@@ -353,7 +353,9 @@ typedef struct entity{
 } entity;
 
 int main(int argc, char** argv){
-	entity 
+	/* ALOT of unnecessary allocations and wasted memory space */
+	entity stack_array[100];
+	entity
 
 
 	return 0;
