@@ -138,7 +138,7 @@ struct person Person = {
 ```
 _This only works for C99 and higher_
 
-In the older days, it was the Programmers job to make sure all fields of a struct were in order at initialization, but since most things can be compiled with "mopd"
+In the older days, it was the Programmers job to make sure all fields of a struct were in order at initialization, but since most things can be compiled with "modern C", this will not be a problem.
 
 ```C
 struct person Person = {
