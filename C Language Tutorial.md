@@ -576,7 +576,7 @@ Hello!
 ```
 _Example on how to compile the new project_
 
-As before, we are compiling the C files first 
+As before, we are compiling the C files first, but then we use the -I flag to include directories, containing header files we want to use (in this case all files are in the same directory, in which ) 
 
 
 # Advanced Topics
