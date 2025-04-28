@@ -512,7 +512,10 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- Debugging with gdb
 
 ## Building tools
-Writing  C code is nice, but it won't do much without
+Writing  C code is nice, but it won't do much without compiling, linking and executing your code. This section talks about how to do these things and briefly explains what is going on behind the hood.
+
+When you write a 50 line progr
+
 
 
 
