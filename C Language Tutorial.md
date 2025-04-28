@@ -568,7 +568,9 @@ int main(int argc, char** argv){
 ```
 _Finally put everything together in your main file_
 
-Now to compile this, you'll have to do a bit more.
+Now to compile this, you'll have to do a bit more:
+```
+```
 # Advanced Topics
 	- Concurrency, Threads, Processes, Signals, ...
 	- Optimization (gprof, perf)
