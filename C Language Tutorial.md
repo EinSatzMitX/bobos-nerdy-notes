@@ -511,10 +511,10 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- Error Handling (errno, perror, assert.h)
 	- Debugging with gdb
 
-## Building tools
+## Building tools and Project organization
 Writing  C code is nice, but it won't do much without compiling, linking and executing your code. This section talks about how to do these things and briefly explains what is going on behind the hood.
 
-When you write a 50 line program, you won't have much trouble putting it all in the main.c file and compiling it using `gcc main.c -o main`. But this doesn't really scale well with programs
+When you write a 50 line program, you won't have much trouble putting it all in the main.c file and compiling it using `gcc main.c -o main`. But this doesn't really scale well with programs, that are thousands of lines in size. So, to 
 
 
 
