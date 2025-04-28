@@ -532,7 +532,14 @@ int main(int argc, char** argv){
 ```
 _This is a pretty simplified program, but you can still see, that it is not necessary to have the print_hello function in the main file_
 
-We can split this code into multiple files
+We can split this code into multiple files like this:
+```H
+// print_hello.h
+/* ALWAYS put this on top */
+#pragma once
+
+#include
+```
 
 
 
