@@ -519,9 +519,17 @@ Take this program as an example:
 ```C
 #include <stdio.h>
 
-void print_hello();
-```
+void print_hello(){
+	printf("Hello!\n");
+}
 
+int main(int argc, char** argv){
+	print_hello();
+
+	return 0;
+}
+```
+_This is a pretty simplified program, but you can still see, that it is not necessary to _
 
 
 
