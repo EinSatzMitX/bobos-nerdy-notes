@@ -566,6 +566,9 @@ int main(int argc, char** argv){
 	return 0;
 }
 ```
+_Finally put everything together in your main file_
+
+
 # Advanced Topics
 	- Concurrency, Threads, Processes, Signals, ...
 	- Optimization (gprof, perf)
