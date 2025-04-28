@@ -576,7 +576,7 @@ Hello!
 ```
 _Example on how to compile the new project_
 
-As before, we are compiling the C files first, but then we use the -I flag to include directories, containing [[]] we want to use (in this case all files are in the same directory, in which im invoking the compiler, so -I. tells the compiler to include the current directory) and finally, we use -o to specify the name of the linked output file. 
+As before, we are compiling the C files first, but then we use the -I flag to include directories, containing [[Header File]]s we want to use (in this case all files are in the same directory, in which we're invoking the compiler, so -I. tells the compiler to include the current directory) and finally, we use -o to specify the name of the linked output file. 
 
 
 # Advanced Topics
