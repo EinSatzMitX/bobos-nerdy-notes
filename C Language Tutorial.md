@@ -511,6 +511,9 @@ _Using the heap used 90% less space than using the stack, note that sizes may va
 	- Error Handling (errno, perror, assert.h)
 	- Debugging with gdb
 
+## Building tools
+Writing  C code is nice, but it won't do much without
+
 
 
 # Advanced Topics
