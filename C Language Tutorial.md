@@ -542,7 +542,16 @@ We can split this code into multiple files like this:
 /* Declare the function */
 void print_hello();
 ```
-_This is a header file, it is used to declare_
+_This is a header file, it is used to declare functions, extern variables and structs_
+
+```C
+// print_hello.c
+#include <stdio.h>
+
+void print_hello(){
+	printf("Hello!\)
+}
+```
 
 
 # Advanced Topics
