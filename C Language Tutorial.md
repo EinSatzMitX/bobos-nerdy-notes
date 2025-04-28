@@ -517,6 +517,7 @@ Writing  C code is nice, but it won't do much without compiling, linking and exe
 When you write a 50 line program, you won't have much trouble putting it all in the main.c file and compiling it using `gcc main.c -o main`. But this doesn't really scale well with programs, that are thousands of lines in size. So, to give your project some organization, you can split your program into multiple files.
 Take this program as an example:
 ```C
+// main.c
 #include <stdio.h>
 
 void print_hello(){
@@ -529,7 +530,9 @@ int main(int argc, char** argv){
 	return 0;
 }
 ```
-_This is a pretty simplified program, but you can still see, that it is not necessary to _
+_This is a pretty simplified program, but you can still see, that it is not necessary to have the print_hello function in the main file_
+
+We can split this code into multiple files
 
 
 
