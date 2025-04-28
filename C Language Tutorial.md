@@ -549,11 +549,18 @@ _This is a header file, it is used to declare functions, extern variables and st
 #include <stdio.h>
 
 void print_hello(){
-	printf("Hello!\)
+	printf("Hello!\n");
 }
 ```
+_Define the functions code in the corresponding C file_
 
+```C
+//main.c
 
+/* It is common to di*/
+#include "print_hello.h"
+
+```
 # Advanced Topics
 	- Concurrency, Threads, Processes, Signals, ...
 	- Optimization (gprof, perf)
