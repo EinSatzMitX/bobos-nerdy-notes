@@ -557,9 +557,14 @@ _Define the functions code in the corresponding C file_
 ```C
 //main.c
 
-/* It is common to di*/
+/* It is common to distinguish your own header files from extern libraries by using "" for your files and <> for libraries */
 #include "print_hello.h"
 
+int main(int argc, char** argv){
+	print_hello();
+
+	return 0;
+}
 ```
 # Advanced Topics
 	- Concurrency, Threads, Processes, Signals, ...
