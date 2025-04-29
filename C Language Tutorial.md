@@ -579,7 +579,8 @@ _Example on how to compile the new project_
 As before, we are compiling the C files first, but then we use the -I flag to include directories, containing [[Header File]]s we want to use (in this case all files are in the same directory, in which we're invoking the compiler, so -I. tells the compiler to include the current directory) and finally, we use -o to specify the name of the linked output file. 
 
 But again, that doesn't really scale well, so what better ways are here to build a C project?
-Well, luckily there's [[GNU Make]]
+Well, luckily there's [[GNU Make]]. A really powerful with a syntax that you might have to wrap your head around, but it won't take too long to understand the basics.
+
 
 
 # Advanced Topics
