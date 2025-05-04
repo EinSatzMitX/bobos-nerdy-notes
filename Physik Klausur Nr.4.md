@@ -19,5 +19,6 @@
 ## Nr.1 
 1.) 
 $$ 
-c = \frac{\lambda, T}
+c = \frac{\lambda} {T} = \frac{x}{t}
 $$
+t = 1.5s; 
