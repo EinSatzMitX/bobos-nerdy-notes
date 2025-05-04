@@ -10,3 +10,10 @@
 - Und natürlich heute: Zeiger bei Wellen!
 
 ## 7.1 Grundbegriffe von Schwingungen
+
+
+
+
+
+# Übungen
+## Nr.1 
