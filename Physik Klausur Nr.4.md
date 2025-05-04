@@ -25,4 +25,5 @@ t = 1.5s; x = 6m
 c = 4 m/s
 
 2.)
-$$ \frac{\frac{4m}{s}}{} $$
+$$ f = \frac{4\frac{m}{s}}{4m} = 1 Hz $$
+3.)
