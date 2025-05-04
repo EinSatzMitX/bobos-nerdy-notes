@@ -27,3 +27,4 @@ c = 4 m/s
 2.)
 $$ f = \frac{4\frac{m}{s}}{4m} = 1 Hz $$
 3.)
+Abb.1, nur von 0s bis
