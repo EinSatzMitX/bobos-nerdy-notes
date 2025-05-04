@@ -24,4 +24,5 @@ $$
 t = 1.5s; x = 6m
 c = 4 m/s
 
-$$ \lambda = 4m$$
+2.)
+$$ \frac{\frac{4m}{s}}{} $$
