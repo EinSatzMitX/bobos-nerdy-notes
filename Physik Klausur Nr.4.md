@@ -19,5 +19,5 @@
 ## Nr.1 
 1.) 
 $$ 
-c = \delta
+c = \frac{\lambda, T}
 $$
